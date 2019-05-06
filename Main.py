@@ -37,8 +37,6 @@ def eyeStrain():
 try:
         eyeStrain()
 except KeyboardInterrupt:
-        wf.close()
-        p.terminate()
         exit()
 
 
